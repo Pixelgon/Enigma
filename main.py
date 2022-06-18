@@ -24,7 +24,7 @@ def verify(dic):
 name = str(input("Zadejte název souboru(cely): "))
 file = open(name, "r")
 filedic = {}
-ukon = int(input("Zadejte co chcete dělat(1 sifrovat, 2 desifrovat, 3 overit, 4 ukončit): "))
+ukon = int(input("Zadejte co chcete dělat(1 sifrovat, 2 desifrovat, 3 overit): "))
 
 # Sifrovani
 if ukon == 1:
