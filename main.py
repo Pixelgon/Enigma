@@ -52,3 +52,4 @@ if ukon == 3:
         print("Slovník je v pořádku")
     else:
         print("Slovník je vadný")
+exit()
